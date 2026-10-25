@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badminton Guide</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #101d2b;
+            color: #f5f7f5;
+        }
+
+        .navbar {
+            padding: 18px 0;
+            border-bottom: 1px solid #344453;
+        }
+
+        .brand {
+            color: #c8f169;
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .hero {
+            background-color: #1c2c3b;
+            padding: 28px;
+            margin-top: 25px;
+            border-radius: 14px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            font-weight: bold;
+            line-height: 1.15;
+        }
+
+        .hero h1 span {
+            color: #c8f169;
+        }
+
+        .hero p {
+            color: #c1cbd3;
+        }
+
+        .hero img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .section-heading {
+            margin: 35px 0 20px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .info-card {
+            background-color: #1c2c3b;
+            border-radius: 14px;
+            overflow: hidden;
+            height: 100%;
+            border: 1px solid #344453;
+        }
+
+        .info-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-content h3 {
+            color: #c8f169;
+            font-size: 21px;
+            margin-bottom: 12px;
+        }
+
+        .card-content ul {
+            padding-left: 20px;
+            margin-bottom: 0;
+            color: #d4dce2;
+        }
+
+        .card-content li {
+            margin-bottom: 7px;
+        }
+
+        footer {
+            border-top: 1px solid #344453;
+            color: #aebbc5;
+            margin-top: 35px;
+            padding: 20px 0;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 34px;
+            }
+
+            .hero img {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="brand">BADMINTON.</div>
+        </nav>
+
+        <!-- Introduction -->
+        <div class="hero">
+            <div class="row align-items-center g-4">
+
+                <div class="col-12 col-md-6">
+                    <p>SPORTS GUIDE / 01</p>
+                    <h1>ALL ABOUT <span>BADMINTON</span></h1>
+                    <p>
+                        A racket sport played using a shuttlecock
+                        across a net.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <img
+                        src="https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&w=800&q=80"
+                        alt="Badminton equipment"
+                        class="img-fluid">
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Basic Information -->
+        <h2 class="section-heading">The Basics</h2>
+
+        <div class="row g-4">
+
+            <!-- Rules -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="info-card">
+                    <img
+                        src="https://singcham-shanghai.org/sites/default/files/inline-images/image-20230925185218-15.jpeg"
+                        alt="Badminton game"
+                        class="img-fluid">
+
+                    <div class="card-content">
+                        <h3>01 / Rules</h3>
+                        <ul>
+                            <li>Hit the shuttlecock over the net.</li>
+                            <li>Keep it inside the court lines.</li>
+                            <li>Games are usually played to 21 points.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Equipment -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="info-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&w=800&q=80"
+                        alt="Badminton racket and shuttlecock"
+                        class="img-fluid">
+
+                    <div class="card-content">
+                        <h3>02 / Equipment</h3>
+                        <ul>
+                            <li>Racket</li>
+                            <li>Shuttlecock</li>
+                            <li>Net</li>
+                            <li>Sports shoes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Techniques -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="info-card">
+                    <img
+                        src="https://od2-image-api.abs-cbn.com/prod/20241026071040/5e781205af207f4ef26b31837be0030282293ce7986656f54ff1834996284aae.jpg"
+                        alt="Badminton player"
+                        class="img-fluid">
+
+                    <div class="card-content">
+                        <h3>03 / Techniques</h3>
+                        <ul>
+                            <li>Serving</li>
+                            <li>Forehand</li>
+                            <li>Backhand</li>
+                            <li>Smash</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-6">BADMINTON GUIDE</div>
+                <div class="col-6 text-end">ICT 9</div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
